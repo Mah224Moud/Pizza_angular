@@ -1,0 +1,6 @@
+<div *ngIf="pizza">
+    <h1>Détails de la pizza</h1>
+    <p>Nom: {{ pizza.getName() }}</p>
+    <p>Description: {{ pizza.getDescription() }}</p>
+    <img [src]="pizza.getImg()" [alt]="pizza.getName()">
+</div>

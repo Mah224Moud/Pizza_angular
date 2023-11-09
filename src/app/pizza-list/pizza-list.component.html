@@ -1,0 +1,10 @@
+<h1>Liste des pizzas</h1>
+
+<div class="container">
+    <div class="pizza_list">
+        <a *ngFor="let pizza of pizzas" (click)="selectPizza(pizza)">
+            {{pizza.getName()}}
+        </a>
+    </div> 
+    <button>Ajouter une pizza</button>
+</div>
