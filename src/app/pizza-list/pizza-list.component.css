@@ -20,6 +20,9 @@ a{
     border-radius: 5px;
     text-align: center;
 }
+a:hover{
+    cursor: pointer;
+}
 button{
     height: 35px;
     background-color: green;
