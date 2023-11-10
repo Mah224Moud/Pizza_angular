@@ -10,10 +10,26 @@ img{
     width: 100%;
     object-fit: cover;
 }
-h2, p{
+h2{
     text-align: center;
 }
 p{
     text-overflow: ellipsis;
 }
 
+button{
+    height: 35px;
+    background-color: green;
+    border-color: 5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 720px) {
+    .pizza{
+        position: relative;
+        left: 0;
+    }
+    
+}

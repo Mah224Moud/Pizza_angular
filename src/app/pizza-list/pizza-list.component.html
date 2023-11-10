@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="pizza_list">
-        <a *ngFor="let pizza of pizzas" (click)="selectPizza(pizza)">
+        <a *ngFor="let pizza of pizzas" (click)="selectPizza(pizza)" [appSelectedPizza]="pizza === selectedPizza">
             {{pizza.getName()}}
         </a>
     </div> 

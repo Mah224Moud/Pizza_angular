@@ -9,9 +9,11 @@ import { Pizza } from '../Pizza';
 export class PizzaListComponent {
   @Input() pizzas: Pizza[] = [];
   @Output() pizzaSelected = new EventEmitter<Pizza>();
+  selectedPizza: Pizza | undefined;
 
 
   selectPizza(pizza: Pizza): void {
+    this.selectedPizza = pizza;
     this.pizzaSelected.emit(pizza);
   }
 }

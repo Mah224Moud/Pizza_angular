@@ -7,7 +7,7 @@ export const PIZZAS: any[] = [
     {
         name: 'Mex',
         description: "La pizza Mexicaine marie audacieusement des saveurs mexicaines sur une croûte délicieuse, avec une base de sauce tomate épicée, du bœuf assaisonné, des poivrons, des oignons rouges et du maïs pour une explosion de textures et de goûts.",
-        img: "https://nurishh.ca/wp-content/uploads/2021/04/hp-recipe-texmexpizza-516x434.png"
+        img: "https://lacuisineensemble.fr/wp-content/uploads/2020/05/recette-pizza-tex-mex-e1589787506506.jpg"
         },
     {
         name: '4 Fromages',
